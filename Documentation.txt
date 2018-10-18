@@ -1,0 +1,68 @@
+Final Editing Document
+List of Files to Print:
+
+	
+Functional Specification Blueprint:
+; Title
+;
+; Description:		
+;
+; Operation:		
+;
+; Arguments:		
+; Return Values:	
+;
+; Local Variables:	
+; Shared Variables: 
+; Global Variables: None.
+;
+; Input:            None.
+; Output:			
+;
+; Error Handling:	
+;
+; Registers Used:   
+; Stack Depth:      
+;
+; Algorithms:		
+; Data Structures:	
+;
+; Known Bugs:		
+; Limitations:		
+;
+; Author:			Suzannah Osekowsky
+; Last Modified:	Dec. 14, 2014
+
+; RemoteInit
+;
+; Description:		Initializes the event queue by setting up relevant variables and 
+;					calling an external function.
+;
+; Operation:		Calls the external function QueueInit with the address of the queue,
+;					the desired number of entries in the queue, and the size of each entry
+;					(byte or word). QueueInit then initializes shared variables for use 
+;					with other generalized queue-related functions.
+;
+; Arguments:		None.
+; Return Values:	None.
+;
+; Local Variables:	None.
+; Shared Variables: None.
+; Global Variables: None.
+;
+; Input:            None.
+; Output:			None.
+;
+; Error Handling:	None.
+;
+; Registers Used:   None.
+; Stack Depth:      1 word.
+;
+; Algorithms:		None
+; Data Structures:	EventQueue - holds events to be dequeued by remote-side main loop
+;
+; Known Bugs:		None.
+; Limitations:		None.
+;
+; Author:			Suzannah Osekowsky
+; Last Modified:	Dec. 14, 2014
